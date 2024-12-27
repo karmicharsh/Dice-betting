@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login - 90's Dicee game</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Play More!</h2>
+        <form class="login-form">
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
+
+    <script type="module">
+        import { setupNavbar } from './navbar.js';
+        setupNavbar();
+    </script>
+</body>
+</html>

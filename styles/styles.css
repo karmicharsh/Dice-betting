@@ -1,0 +1,193 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #393E46;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #232931;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+.nav-links a {
+    color: #EEEEEE;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #4ECCA3;
+}
+
+/* Game container styles */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+h2 {
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    width: 80%;
+}
+
+/* Enjoyment banner styles */
+.enjoyment-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #232931;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h3 {
+    color: #4ECCA3;
+    margin-bottom: 1rem;
+}
+
+.banner-content button {
+    background-color: #4ECCA3;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: #232931;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner-content button:hover {
+    background-color: #3aa782;
+}
+
+/* Login page styles */
+.login-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #232931;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #4ECCA3;
+    margin-bottom: 2rem;
+}
+
+.login-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #4ECCA3;
+    border: none;
+    border-radius: 5px;
+    color: #232931;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #3aa782;
+}
+
+.signup-text {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.signup-text a {
+    color: #4ECCA3;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.feedback {
+    font-size: 3rem;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .play-again-btn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #4ECCA3;
+    color: #232931;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .play-again-btn:hover {
+    background-color: #3aa782;
+  }
+  
