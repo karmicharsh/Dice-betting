@@ -17,8 +17,8 @@ export function setupDiceGame() {
     const randNumber2 = Math.floor(Math.random() * 6) + 1;
     
     // Update dice images
-    document.querySelector(".img1").setAttribute("src", `images/dice${randNumber1}.png`);
-    document.querySelector(".img2").setAttribute("src", `images/dice${randNumber2}.png`);
+    document.querySelector(".img1").setAttribute("src", `./images/dice${randNumber1}.png`);
+    document.querySelector(".img2").setAttribute("src", `./images/dice${randNumber2}.png`);
     
     const correctAnswer = determineWinner(randNumber1, randNumber2);
     const resultText = getResultText(randNumber1, randNumber2);
@@ -65,7 +65,7 @@ export function setupDiceGame() {
     if (!enjoyed) {
       alert("It's not like you don't have to sign up!");
     }
-    window.location.href = 'login.html';
+    window.location.href = './login.html';
   };
   
   // Set up initial click handler
